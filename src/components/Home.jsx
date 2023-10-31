@@ -24,7 +24,6 @@ export default function Home() {
         localStorage.removeItem(index.toString());
 
         const newTodo = [...todo];
-        console.log(todo, "...", newTodo)
         newTodo.splice(index, 1);
         setTodo(newTodo);
     }
