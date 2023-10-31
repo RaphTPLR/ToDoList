@@ -5,11 +5,12 @@ import Home from './components/Home'
 function App() {
   return (
     <div className="App">
-      <Link to="/">Accueil</Link>
+      {/* <Link to="/">Accueil</Link>
 
       <Routes>
           <Route path='/' element = { <Home/> }/>
-        </Routes>
+        </Routes> */}
+        <Home />
     </div>
   );
 }
